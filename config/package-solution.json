@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "samplespfx-client-side-solution",
+    "id": "9be7ac15-071e-4b39-8499-a9c96427cff2",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "samplespfx description"
+      },
+      "longDescription": {
+        "default": "samplespfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "samplespfx Feature",
+        "description": "The feature that activates elements of the samplespfx solution.",
+        "id": "3b0e9f94-f440-41c1-b500-e09510074a3f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/samplespfx.sppkg"
+  }
+}

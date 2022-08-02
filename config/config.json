@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "test-web-part-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/testWebPart1/TestWebPart1WebPart.js",
+          "manifest": "./src/webparts/testWebPart1/TestWebPart1WebPart.manifest.json"
+        }
+      ]
+    },
+    "react-calendar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactCalendar/ReactCalendarWebPart.js",
+          "manifest": "./src/webparts/reactCalendar/ReactCalendarWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jQuery"
+    },
+    "bootstrap": {
+      "path": "node_modules/bootstrap/dist/js/bootstrap.min.js",
+      "globalName": "bootstrap"
+    }
+  },
+  "localizedResources": {
+    "TestWebPart1WebPartStrings": "lib/webparts/testWebPart1/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "ReactCalendarWebPartStrings": "lib/webparts/reactCalendar/loc/{locale}.js"
+  }
+}
