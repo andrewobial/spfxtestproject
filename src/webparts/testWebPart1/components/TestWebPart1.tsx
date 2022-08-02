@@ -68,7 +68,7 @@ export default class TestWebPart1 extends React.Component<ITestWebPart1Props, IT
   //       .then((response: SPHttpClientResponse) => {
   //         console.log(response.json);
   //       return response.json();
-  //       });
+  //       });;
   //   }
 
   public componentDidMount(): void {
